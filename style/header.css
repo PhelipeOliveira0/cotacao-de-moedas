@@ -1,0 +1,15 @@
+.principal__cabecalho{
+    background-color: rgb(22, 22, 22);
+    width: 76vw;
+    padding: 4vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.principal__cabecalho__frase{
+    color: white;
+    font-size: 2vw;
+    font-family: "Nunito", sans-serif;
+}

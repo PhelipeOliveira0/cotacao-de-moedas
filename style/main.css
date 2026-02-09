@@ -1,0 +1,19 @@
+main{
+    font-family: "Nunito", sans-serif;
+    height: 100%;
+    width:80vw;
+    position: relative;
+    left: 20vw;
+}
+
+.investimentos h2{
+    font-size: 1.6vw;
+}
+
+.grafico__titulo h2{
+    font-size: 1.7vw;
+}
+
+.investimentos__lista{
+    font-size: 1vw;
+}

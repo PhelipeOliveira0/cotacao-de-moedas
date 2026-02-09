@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/geral.css">
+    <link rel="stylesheet" href="./style/grafico.css">
+    <link rel="stylesheet" href="./style/menuLateral.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>InvestByte</title>
+</head>
+<body>
+    <aside class="menuLateral ">
+        <div class="menuLateral__empresa">
+            <h1 class="menuLateral__empresa__logo__titulo">InvestByte</h1>
+        </div>
+        <div class="menuLateral__usuario">
+            <img src="./img/users/UserDefault.png" alt="Foto do usuario" class="menuLateral__navegacao__item__icone">
+            <h2 class="menuLateral__usuario__nome">Usuario</h2>
+        </div>
+        <nav class="menuLateral__navegacao">
+            <a href="#" class="menuLateral__navegacao__item">
+                <h3 class="menuLateral__navegacao__item__titulo dashboard">DASHBOARD</h3>
+            </a>
+            <a href="#" class="menuLateral__navegacao__item">
+                <h3 class="menuLateral__navegacao__item__titulo investimento">INVESTIMENTOS</h3>
+            </a>
+            <a href="#" class="menuLateral__navegacao__item">
+                <h3 class="menuLateral__navegacao__item__titulo conta">MINHA CONTA</h3>
+            </a>
+            <a href="#" class="menuLateral__navegacao__item">
+                <h3 class="menuLateral__navegacao__item__titulo duvidas">DUVIDAS FREQUENTES</h3>
+            </a>
+        </nav>  
+    </aside>
+    <main class="principal">
+        <header class="principal__cabecalho">
+            <h2 class="principal__cabecalho__frase">Olá, Usuario! Estes são os detalhes mais proucurados</h2>
+        </header>
+
+         <article class="dadosDolar">
+      <div class="grafico">
+        <div class="grafico__titulo">
+          <span class="grafico__ilustracao-dolar"></span>
+          <h2>Variação da moeda desde o login</h2>
+        </div>
+        <canvas id="graficoDolar"></canvas>
+      </div>
+
+      <div class="investimentos">
+        <h2>Valores da moeda</h2>
+        <ul class="investimentos__lista" id="dolar" data-lista>
+        </ul>
+      </div>
+    </article>
+
+    <article class="dadosIene">
+      <div class="grafico">
+        <div class="grafico__titulo">
+          <span class="grafico__ilustracao-iene"></span>
+          <h2>Variação da moeda desde o login</h2>
+        </div>
+        <canvas id="graficoIene"></canvas>
+      </div>
+
+      <div class="investimentos">
+        <h2>Valores da moeda</h2>
+        <ul class="investimentos__lista" id="iene" data-lista>
+        </ul>
+      </div>
+    </article>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./script/scripts.js" type="module"></script>
+  </main>
+
+</body>
+</html>

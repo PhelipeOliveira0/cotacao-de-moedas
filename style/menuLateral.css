@@ -1,0 +1,76 @@
+.menuLateral{    
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    position: fixed;
+    width: 20vw;
+    height: 100%;
+}
+
+
+.menuLateral__empresa__logo__titulo{
+    background-repeat: no-repeat;
+    background-size: 3vw;
+    padding-left: 1em;
+    background-image: url('../img/utilidades/logo.png');
+    font-size: 3vw;
+    margin: 10vh 1.5vw 5vh 0;
+}
+
+.menuLateral__usuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuLateral__navegacao__item__icone{
+    width: 30vh;
+    width: 30vh;
+    border-radius: 100%;
+}
+
+.menuLateral__usuario__nome{
+    text-transform: uppercase;
+    margin: 3vh;
+    font-size: 2vw;
+}
+
+.menuLateral__navegacao__item{
+    text-decoration: none;
+}
+
+
+
+.menuLateral__navegacao__item__titulo{
+    background-repeat: no-repeat;
+    padding-left: 1.5em;
+    font-size: 1.2vw;
+    color: black;
+    margin-left: 3vw;
+    background-size: 1em;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    margin: 3vh;
+}
+
+
+
+.dashboard{
+    background-image: url("../img/utilidades/icon-dashboard.png");
+    color: #00dea3;
+}
+
+.investimento{
+    background-image: url("../img/utilidades/icon-cofre.png");
+}
+
+.conta{
+    background-image: url("../img/utilidades/icon-configuracao.png");
+}
+
+.duvidas{
+    background-image: url("../img/utilidades/icon-duvida.png");
+}
